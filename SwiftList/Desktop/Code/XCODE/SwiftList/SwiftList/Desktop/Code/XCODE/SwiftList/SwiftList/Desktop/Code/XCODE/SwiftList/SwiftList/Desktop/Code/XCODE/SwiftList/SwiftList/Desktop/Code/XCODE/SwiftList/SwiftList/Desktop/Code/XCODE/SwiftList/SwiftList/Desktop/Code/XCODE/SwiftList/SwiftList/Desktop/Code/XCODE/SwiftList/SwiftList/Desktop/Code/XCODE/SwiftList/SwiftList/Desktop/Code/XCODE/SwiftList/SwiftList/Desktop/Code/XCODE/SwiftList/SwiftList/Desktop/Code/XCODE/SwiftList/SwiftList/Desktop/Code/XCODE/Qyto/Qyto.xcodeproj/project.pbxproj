@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78EB5F202576ADB70093E143 /* QytoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F1F2576ADB70093E143 /* QytoApp.swift */; };
+		78EB5F222576ADB70093E143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F212576ADB70093E143 /* ContentView.swift */; };
+		78EB5F242576ADBD0093E143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EB5F232576ADBD0093E143 /* Assets.xcassets */; };
+		78EB5F272576ADBD0093E143 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EB5F262576ADBD0093E143 /* Preview Assets.xcassets */; };
+		78EB5F292576ADBD0093E143 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F282576ADBD0093E143 /* Persistence.swift */; };
+		78EB5F2C2576ADBD0093E143 /* Qyto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F2A2576ADBD0093E143 /* Qyto.xcdatamodeld */; };
+		78EB5F372576ADBD0093E143 /* QytoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F362576ADBD0093E143 /* QytoTests.swift */; };
+		78EB5F422576ADBD0093E143 /* QytoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5F412576ADBD0093E143 /* QytoUITests.swift */; };
+		78EB5F532576B0080093E143 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78EB5F522576B0070093E143 /* Montserrat-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78EB5F332576ADBD0093E143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78EB5F142576ADB70093E143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EB5F1B2576ADB70093E143;
+			remoteInfo = Qyto;
+		};
+		78EB5F3E2576ADBD0093E143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78EB5F142576ADB70093E143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EB5F1B2576ADB70093E143;
+			remoteInfo = Qyto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78EB5F1C2576ADB70093E143 /* Qyto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qyto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EB5F1F2576ADB70093E143 /* QytoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QytoApp.swift; sourceTree = "<group>"; };
+		78EB5F212576ADB70093E143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78EB5F232576ADBD0093E143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78EB5F262576ADBD0093E143 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78EB5F282576ADBD0093E143 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		78EB5F2B2576ADBD0093E143 /* Qyto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qyto.xcdatamodel; sourceTree = "<group>"; };
+		78EB5F2D2576ADBD0093E143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78EB5F322576ADBD0093E143 /* QytoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QytoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EB5F362576ADBD0093E143 /* QytoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QytoTests.swift; sourceTree = "<group>"; };
+		78EB5F382576ADBD0093E143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78EB5F3D2576ADBD0093E143 /* QytoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QytoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EB5F412576ADBD0093E143 /* QytoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QytoUITests.swift; sourceTree = "<group>"; };
+		78EB5F432576ADBD0093E143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78EB5F522576B0070093E143 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78EB5F192576ADB70093E143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F2F2576ADBD0093E143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F3A2576ADBD0093E143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78EB5F132576ADB70093E143 = {
+			isa = PBXGroup;
+			children = (
+				78EB5F1E2576ADB70093E143 /* Qyto */,
+				78EB5F352576ADBD0093E143 /* QytoTests */,
+				78EB5F402576ADBD0093E143 /* QytoUITests */,
+				78EB5F1D2576ADB70093E143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78EB5F1D2576ADB70093E143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5F1C2576ADB70093E143 /* Qyto.app */,
+				78EB5F322576ADBD0093E143 /* QytoTests.xctest */,
+				78EB5F3D2576ADBD0093E143 /* QytoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78EB5F1E2576ADB70093E143 /* Qyto */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5F1F2576ADB70093E143 /* QytoApp.swift */,
+				78EB5F212576ADB70093E143 /* ContentView.swift */,
+				78EB5F232576ADBD0093E143 /* Assets.xcassets */,
+				78EB5F282576ADBD0093E143 /* Persistence.swift */,
+				78EB5F522576B0070093E143 /* Montserrat-Regular.ttf */,
+				78EB5F2D2576ADBD0093E143 /* Info.plist */,
+				78EB5F2A2576ADBD0093E143 /* Qyto.xcdatamodeld */,
+				78EB5F252576ADBD0093E143 /* Preview Content */,
+			);
+			path = Qyto;
+			sourceTree = "<group>";
+		};
+		78EB5F252576ADBD0093E143 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5F262576ADBD0093E143 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78EB5F352576ADBD0093E143 /* QytoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5F362576ADBD0093E143 /* QytoTests.swift */,
+				78EB5F382576ADBD0093E143 /* Info.plist */,
+			);
+			path = QytoTests;
+			sourceTree = "<group>";
+		};
+		78EB5F402576ADBD0093E143 /* QytoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5F412576ADBD0093E143 /* QytoUITests.swift */,
+				78EB5F432576ADBD0093E143 /* Info.plist */,
+			);
+			path = QytoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78EB5F1B2576ADB70093E143 /* Qyto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78EB5F462576ADBD0093E143 /* Build configuration list for PBXNativeTarget "Qyto" */;
+			buildPhases = (
+				78EB5F182576ADB70093E143 /* Sources */,
+				78EB5F192576ADB70093E143 /* Frameworks */,
+				78EB5F1A2576ADB70093E143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qyto;
+			productName = Qyto;
+			productReference = 78EB5F1C2576ADB70093E143 /* Qyto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78EB5F312576ADBD0093E143 /* QytoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78EB5F492576ADBD0093E143 /* Build configuration list for PBXNativeTarget "QytoTests" */;
+			buildPhases = (
+				78EB5F2E2576ADBD0093E143 /* Sources */,
+				78EB5F2F2576ADBD0093E143 /* Frameworks */,
+				78EB5F302576ADBD0093E143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78EB5F342576ADBD0093E143 /* PBXTargetDependency */,
+			);
+			name = QytoTests;
+			productName = QytoTests;
+			productReference = 78EB5F322576ADBD0093E143 /* QytoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78EB5F3C2576ADBD0093E143 /* QytoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78EB5F4C2576ADBD0093E143 /* Build configuration list for PBXNativeTarget "QytoUITests" */;
+			buildPhases = (
+				78EB5F392576ADBD0093E143 /* Sources */,
+				78EB5F3A2576ADBD0093E143 /* Frameworks */,
+				78EB5F3B2576ADBD0093E143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78EB5F3F2576ADBD0093E143 /* PBXTargetDependency */,
+			);
+			name = QytoUITests;
+			productName = QytoUITests;
+			productReference = 78EB5F3D2576ADBD0093E143 /* QytoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78EB5F142576ADB70093E143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					78EB5F1B2576ADB70093E143 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					78EB5F312576ADBD0093E143 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 78EB5F1B2576ADB70093E143;
+					};
+					78EB5F3C2576ADBD0093E143 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 78EB5F1B2576ADB70093E143;
+					};
+				};
+			};
+			buildConfigurationList = 78EB5F172576ADB70093E143 /* Build configuration list for PBXProject "Qyto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78EB5F132576ADB70093E143;
+			productRefGroup = 78EB5F1D2576ADB70093E143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78EB5F1B2576ADB70093E143 /* Qyto */,
+				78EB5F312576ADBD0093E143 /* QytoTests */,
+				78EB5F3C2576ADBD0093E143 /* QytoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78EB5F1A2576ADB70093E143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB5F532576B0080093E143 /* Montserrat-Regular.ttf in Resources */,
+				78EB5F272576ADBD0093E143 /* Preview Assets.xcassets in Resources */,
+				78EB5F242576ADBD0093E143 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F302576ADBD0093E143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F3B2576ADBD0093E143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78EB5F182576ADB70093E143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB5F292576ADBD0093E143 /* Persistence.swift in Sources */,
+				78EB5F222576ADB70093E143 /* ContentView.swift in Sources */,
+				78EB5F2C2576ADBD0093E143 /* Qyto.xcdatamodeld in Sources */,
+				78EB5F202576ADB70093E143 /* QytoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F2E2576ADBD0093E143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB5F372576ADBD0093E143 /* QytoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EB5F392576ADBD0093E143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB5F422576ADBD0093E143 /* QytoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78EB5F342576ADBD0093E143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78EB5F1B2576ADB70093E143 /* Qyto */;
+			targetProxy = 78EB5F332576ADBD0093E143 /* PBXContainerItemProxy */;
+		};
+		78EB5F3F2576ADBD0093E143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78EB5F1B2576ADB70093E143 /* Qyto */;
+			targetProxy = 78EB5F3E2576ADBD0093E143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78EB5F442576ADBD0093E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78EB5F452576ADBD0093E143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78EB5F472576ADBD0093E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qyto/Preview Content\"";
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Qyto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.Qyto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78EB5F482576ADBD0093E143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qyto/Preview Content\"";
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Qyto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.Qyto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78EB5F4A2576ADBD0093E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				INFOPLIST_FILE = QytoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.QytoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qyto.app/Qyto";
+			};
+			name = Debug;
+		};
+		78EB5F4B2576ADBD0093E143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				INFOPLIST_FILE = QytoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.QytoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qyto.app/Qyto";
+			};
+			name = Release;
+		};
+		78EB5F4D2576ADBD0093E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				INFOPLIST_FILE = QytoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.QytoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qyto;
+			};
+			name = Debug;
+		};
+		78EB5F4E2576ADBD0093E143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT5N7U3387;
+				INFOPLIST_FILE = QytoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohilpatel.QytoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qyto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78EB5F172576ADB70093E143 /* Build configuration list for PBXProject "Qyto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EB5F442576ADBD0093E143 /* Debug */,
+				78EB5F452576ADBD0093E143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EB5F462576ADBD0093E143 /* Build configuration list for PBXNativeTarget "Qyto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EB5F472576ADBD0093E143 /* Debug */,
+				78EB5F482576ADBD0093E143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EB5F492576ADBD0093E143 /* Build configuration list for PBXNativeTarget "QytoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EB5F4A2576ADBD0093E143 /* Debug */,
+				78EB5F4B2576ADBD0093E143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EB5F4C2576ADBD0093E143 /* Build configuration list for PBXNativeTarget "QytoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EB5F4D2576ADBD0093E143 /* Debug */,
+				78EB5F4E2576ADBD0093E143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78EB5F2A2576ADBD0093E143 /* Qyto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78EB5F2B2576ADBD0093E143 /* Qyto.xcdatamodel */,
+			);
+			currentVersion = 78EB5F2B2576ADBD0093E143 /* Qyto.xcdatamodel */;
+			path = Qyto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78EB5F142576ADB70093E143 /* Project object */;
+}
