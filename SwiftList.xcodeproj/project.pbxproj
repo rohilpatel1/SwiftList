@@ -17,6 +17,8 @@
 		78CF821425BE0AF000B25B7E /* SwiftList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CF821225BE0AF000B25B7E /* SwiftList.xcdatamodeld */; };
 		78CF821F25BE0AF000B25B7E /* SwiftListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF821E25BE0AF000B25B7E /* SwiftListTests.swift */; };
 		78CF822A25BE0AF000B25B7E /* SwiftListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF822925BE0AF000B25B7E /* SwiftListUITests.swift */; };
+		78E3FA7B25C34FE40074EB01 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78E3FA7625C34DA90074EB01 /* Montserrat-Bold.ttf */; };
+		78E3FA7F25C351000074EB01 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78E3FA7725C34EAB0074EB01 /* Montserrat-Regular.ttf */; };
 		826DA9A3E9657D848D355DBC /* Pods_SwiftListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F45C5AB0884713EA5EAB14 /* Pods_SwiftListTests.framework */; };
 		D0607F85E3AA4D345E50A21A /* Pods_SwiftList_SwiftListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A770893CC9A49F84FD642FF9 /* Pods_SwiftList_SwiftListUITests.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +47,6 @@
 		653EA6A5BB837A30FCAA9660 /* Pods-SwiftList-SwiftListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftList-SwiftListUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftList-SwiftListUITests/Pods-SwiftList-SwiftListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		67F45C5AB0884713EA5EAB14 /* Pods_SwiftListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787EB92B25C0BFCC00C56F33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7880E70C25BE18F5007E55EE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		78CF820425BE0AED00B25B7E /* SwiftList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CF820725BE0AED00B25B7E /* SwiftListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListApp.swift; sourceTree = "<group>"; };
 		78CF820925BE0AED00B25B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +61,8 @@
 		78CF822525BE0AF000B25B7E /* SwiftListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CF822925BE0AF000B25B7E /* SwiftListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListUITests.swift; sourceTree = "<group>"; };
 		78CF822B25BE0AF000B25B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E3FA7625C34DA90074EB01 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		78E3FA7725C34EAB0074EB01 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		99908CA478F6AA7206C113A3 /* Pods-SwiftListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftListTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftListTests/Pods-SwiftListTests.release.xcconfig"; sourceTree = "<group>"; };
 		A770893CC9A49F84FD642FF9 /* Pods_SwiftList_SwiftListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftList_SwiftListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEA379C8BEC7FF2E5013039 /* Pods-SwiftList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftList.release.xcconfig"; path = "Target Support Files/Pods-SwiftList/Pods-SwiftList.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,9 +149,9 @@
 				78CF820725BE0AED00B25B7E /* SwiftListApp.swift */,
 				78CF820925BE0AED00B25B7E /* ContentView.swift */,
 				78CF820B25BE0AF000B25B7E /* Assets.xcassets */,
-				7880E70C25BE18F5007E55EE /* Montserrat-Regular.ttf */,
 				78CF821025BE0AF000B25B7E /* Persistence.swift */,
 				78CF821525BE0AF000B25B7E /* Info.plist */,
+				78E3FA7225C345720074EB01 /* Fonts */,
 				787EB92B25C0BFCC00C56F33 /* GoogleService-Info.plist */,
 				78CF821225BE0AF000B25B7E /* SwiftList.xcdatamodeld */,
 				78CF820D25BE0AF000B25B7E /* Preview Content */,
@@ -180,6 +183,15 @@
 				78CF822B25BE0AF000B25B7E /* Info.plist */,
 			);
 			path = SwiftListUITests;
+			sourceTree = "<group>";
+		};
+		78E3FA7225C345720074EB01 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				78E3FA7625C34DA90074EB01 /* Montserrat-Bold.ttf */,
+				78E3FA7725C34EAB0074EB01 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,8 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E3FA7B25C34FE40074EB01 /* Montserrat-Bold.ttf in Resources */,
 				78CF820F25BE0AF000B25B7E /* Preview Assets.xcassets in Resources */,
 				78CF820C25BE0AF000B25B7E /* Assets.xcassets in Resources */,
+				78E3FA7F25C351000074EB01 /* Montserrat-Regular.ttf in Resources */,
 				787EB92C25C0BFCC00C56F33 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
