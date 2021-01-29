@@ -31,7 +31,7 @@ struct SwiftListApp: App {
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      SignUpView()
         .environment(\.managedObjectContext, persistenceController.container.viewContext)
     }
   }

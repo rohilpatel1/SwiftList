@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F35708502B43CF60CE03C1D /* Pods_SwiftList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6232ECDC251B0371587E9D0B /* Pods_SwiftList.framework */; };
+		7828241425C48F7400829806 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828241325C48F7400829806 /* SignUpView.swift */; };
+		7828241925C491E400829806 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828241825C491E400829806 /* AppView.swift */; };
 		787EB92C25C0BFCC00C56F33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787EB92B25C0BFCC00C56F33 /* GoogleService-Info.plist */; };
 		78CF820825BE0AED00B25B7E /* SwiftListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF820725BE0AED00B25B7E /* SwiftListApp.swift */; };
 		78CF820A25BE0AED00B25B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF820925BE0AED00B25B7E /* ContentView.swift */; };
@@ -46,6 +48,8 @@
 		6232ECDC251B0371587E9D0B /* Pods_SwiftList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653EA6A5BB837A30FCAA9660 /* Pods-SwiftList-SwiftListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftList-SwiftListUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftList-SwiftListUITests/Pods-SwiftList-SwiftListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		67F45C5AB0884713EA5EAB14 /* Pods_SwiftListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7828241325C48F7400829806 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7828241825C491E400829806 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		787EB92B25C0BFCC00C56F33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78CF820425BE0AED00B25B7E /* SwiftList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CF820725BE0AED00B25B7E /* SwiftListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListApp.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				78CF820725BE0AED00B25B7E /* SwiftListApp.swift */,
 				78CF820925BE0AED00B25B7E /* ContentView.swift */,
+				7828241325C48F7400829806 /* SignUpView.swift */,
+				7828241825C491E400829806 /* AppView.swift */,
 				78CF820B25BE0AF000B25B7E /* Assets.xcassets */,
 				78CF821025BE0AF000B25B7E /* Persistence.swift */,
 				78CF821525BE0AF000B25B7E /* Info.plist */,
@@ -435,6 +441,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CF821125BE0AF000B25B7E /* Persistence.swift in Sources */,
+				7828241425C48F7400829806 /* SignUpView.swift in Sources */,
+				7828241925C491E400829806 /* AppView.swift in Sources */,
 				78CF820A25BE0AED00B25B7E /* ContentView.swift in Sources */,
 				78CF820825BE0AED00B25B7E /* SwiftListApp.swift in Sources */,
 				78CF821425BE0AF000B25B7E /* SwiftList.xcdatamodeld in Sources */,
