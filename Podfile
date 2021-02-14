@@ -8,8 +8,9 @@ target 'SwiftList' do
   # Pods for SwiftList
 # add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
-pod 'Firebase/Firestore'
+pod 'Firebase/Auth'
 pod 'Firebase'
+pod 'Firebase/Firestore'
 
   target 'SwiftListTests' do
     inherit! :search_paths

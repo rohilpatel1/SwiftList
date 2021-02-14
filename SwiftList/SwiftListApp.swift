@@ -30,9 +30,15 @@ struct SwiftListApp: App {
   }
   
   var body: some Scene {
+    let isLoggedIn = UserDefaults.standard.bool(forKey: "signedIn")
     WindowGroup {
-      SignUpView()
-        .environment(\.managedObjectContext, persistenceController.container.viewContext)
+      if isLoggedIn {
+        AppView()
+          .environment(\.managedObjectContext, persistenceController.container.viewContext)
+      } else {
+        SignInView()
+          .environment(\.managedObjectContext, persistenceController.container.viewContext)
+      }
     }
   }
 }
