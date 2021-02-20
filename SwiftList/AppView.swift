@@ -17,7 +17,11 @@ struct AppView: View {
               Text("Home")
             }
         }
+        .navigationBarHidden(true)
+        .navigationBarTitle("", displayMode: .inline)
+        .navigationBarBackButtonHidden(true)
     }
+  
 }
 
 struct AppView_Previews: PreviewProvider {

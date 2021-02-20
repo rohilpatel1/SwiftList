@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct CreateView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @State var recipeName = ""
+  @State var isStaple = false
+  
+  var body: some View {
+    Form {
+      Section(header: Text("General")) {
+        TextField("Recipe Name", text: $recipeName)
+        Toggle(isOn: $isStaple, label: {
+          Text("Staple")
+        })
+      }
     }
+    .navigationBarHidden(true)
+    .navigationBarTitle("Create Recipe", displayMode: .inline)
+    .navigationBarBackButtonHidden(false)
+  }
 }
 
 struct CreateView_Previews: PreviewProvider {
-    static var previews: some View {
-        CreateView()
-    }
+  static var previews: some View {
+    CreateView()
+  }
 }
